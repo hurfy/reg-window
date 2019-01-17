@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F6693E;
+}
+
+h1 {
+	font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -1.1px;
+}
+
+.forma {
+    width: 330px;
+    height: 340px;
+    padding: 70px 30px 95px;
+    background: #FFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    background-color: #d3d3d3;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: -.5px;
+}
+
+.btn_submit {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #F06455;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: .85px;
+    color: #fff;
+    box-shadow: inset 0 -4px 0 #DA5B4A;
+    cursor: pointer;
+}
+
+.btn_submit:hover {
+    filter: brightness(1.1);
+}
+
+.btn_submit:active {
+    filter: brightness(0.9);
+}
+
+.forma:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: url(../images/mail.svg) no-repeat #34D6DB;
+    background-size: 35px;
+    background-position: 50%;
+}
+
+.back {
+    height: 30px;
+    width: 60px;
+    background-color: #34D6DB;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 105px -300px;
+    box-shadow: inset 0 -4px 0 #23C5C9;
+}
+
+.back:hover {
+    filter: brightness(1.1);
+}
+
+.back:active {
+    filter: brightness(0.9);
+}
